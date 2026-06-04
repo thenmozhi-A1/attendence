@@ -1,0 +1,1020 @@
+
+> attendance-management-frontend@1.0.0 start
+> react-scripts start
+
+Starting the development server...
+
+Compiled with warnings.
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/core-impl.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/factories.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/permissions.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/retriever.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/code-decoder.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/core.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/html5-qrcode-scanner.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/html5-qrcode.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/image-assets.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/index.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/native-bar-code-detector.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/state-manager.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/storage.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/strings.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/base.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/camera-selection-ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/camera-zoom-ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/file-selection-ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/scan-type-selector.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/torch-button.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/utils.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/zxing-html5-qrcode-decoder.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts'[39m[22m
+
+webpack compiled with [1m[33m23 warnings[39m[22m
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/core-impl.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/factories.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/permissions.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/retriever.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/code-decoder.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/core.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/html5-qrcode-scanner.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/html5-qrcode.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/image-assets.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/index.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/native-bar-code-detector.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/state-manager.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/storage.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/strings.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/base.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/camera-selection-ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/camera-zoom-ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/file-selection-ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/scan-type-selector.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/torch-button.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/utils.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/zxing-html5-qrcode-decoder.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts'[39m[22m
+
+webpack compiled with [1m[33m23 warnings[39m[22m
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/core-impl.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/factories.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/permissions.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/retriever.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/code-decoder.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/core.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/html5-qrcode-scanner.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/html5-qrcode.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/image-assets.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/index.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/native-bar-code-detector.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/state-manager.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/storage.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/strings.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/base.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/camera-selection-ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/camera-zoom-ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/file-selection-ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/scan-type-selector.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/torch-button.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/utils.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/zxing-html5-qrcode-decoder.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts'[39m[22m
+
+webpack compiled with [1m[33m23 warnings[39m[22m
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/core-impl.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/factories.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/permissions.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/retriever.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/code-decoder.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/core.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/html5-qrcode-scanner.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/html5-qrcode.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/image-assets.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/index.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/native-bar-code-detector.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/state-manager.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/storage.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/strings.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/base.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/camera-selection-ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/camera-zoom-ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/file-selection-ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/scan-type-selector.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/torch-button.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/utils.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/zxing-html5-qrcode-decoder.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts'[39m[22m
+
+webpack compiled with [1m[33m23 warnings[39m[22m
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/core-impl.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/factories.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/permissions.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/retriever.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/code-decoder.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/core.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/html5-qrcode-scanner.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/html5-qrcode.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/image-assets.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/index.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/native-bar-code-detector.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/state-manager.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/storage.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/strings.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/base.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/camera-selection-ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/camera-zoom-ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/file-selection-ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/scan-type-selector.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/torch-button.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/utils.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/zxing-html5-qrcode-decoder.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts'[39m[22m
+
+webpack compiled with [1m[33m23 warnings[39m[22m
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/core-impl.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/factories.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/permissions.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/retriever.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/code-decoder.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/core.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/html5-qrcode-scanner.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/html5-qrcode.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/image-assets.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/index.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/native-bar-code-detector.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/state-manager.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/storage.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/strings.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/base.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/camera-selection-ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/camera-zoom-ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/file-selection-ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/scan-type-selector.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/torch-button.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/utils.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/zxing-html5-qrcode-decoder.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts'[39m[22m
+
+webpack compiled with [1m[33m23 warnings[39m[22m
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts'
+
+Failed to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts' file: Error: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/core-impl.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\core-impl.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/factories.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\factories.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/permissions.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\permissions.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/camera/retriever.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\camera\retriever.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/code-decoder.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\code-decoder.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/core.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\core.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/html5-qrcode-scanner.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode-scanner.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/html5-qrcode.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\html5-qrcode.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/image-assets.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\image-assets.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/index.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\index.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/native-bar-code-detector.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\native-bar-code-detector.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/state-manager.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\state-manager.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/storage.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\storage.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/strings.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\strings.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/base.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\base.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/camera-selection-ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-selection-ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/camera-zoom-ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\camera-zoom-ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/file-selection-ui.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\file-selection-ui.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/scan-type-selector.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\scan-type-selector.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/ui/scanner/torch-button.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\ui\scanner\torch-button.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/utils.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\utils.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/html5-qrcode/esm/zxing-html5-qrcode-decoder.js[39m[22m
+[1mModule Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'C:\Users\user\Downloads\attendance-management-system (1)\attendance-management-system\frontend\node_modules\src\zxing-html5-qrcode-decoder.ts'[39m[22m
+
+webpack compiled with [1m[33m23 warnings[39m[22m
