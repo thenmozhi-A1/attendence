@@ -89,14 +89,17 @@ export const prepareAuthenticationOptions = (options) => {
  */
 export const processRegistrationCredential = (credential) => {
   return {
-    id: credential.id,
-    rawId: bufferToBase64url(credential.rawId),
-    type: credential.type,
-    response: {
-      attestationObject: bufferToBase64url(credential.response.attestationObject),
-      clientDataJSON: bufferToBase64url(credential.response.clientDataJSON),
-    },
+    credentialId: credential.id,
+    publicKey: bufferToBase64url(credential.response.attestationObject),
+    signCount: 0,
+    transports: credential.response.getTransports ? credential.response.getTransports().join(',') : '',
+    deviceName: navigator.userAgent,
   };
+};
+
+const extractSignCount = (authenticatorData) => {
+  const data = new DataView(authenticatorData);
+  return data.byteLength >= 37 ? data.getUint32(33, false) : 0;
 };
 
 /**
@@ -105,17 +108,9 @@ export const processRegistrationCredential = (credential) => {
  */
 export const processAuthenticationCredential = (credential) => {
   return {
-    id: credential.id,
-    rawId: bufferToBase64url(credential.rawId),
-    type: credential.type,
-    response: {
-      authenticatorData: bufferToBase64url(credential.response.authenticatorData),
-      clientDataJSON: bufferToBase64url(credential.response.clientDataJSON),
-      signature: bufferToBase64url(credential.response.signature),
-      userHandle: credential.response.userHandle
-        ? bufferToBase64url(credential.response.userHandle)
-        : null,
-    },
+    credentialId: credential.id,
+    signature: bufferToBase64url(credential.response.signature),
+    signCount: extractSignCount(credential.response.authenticatorData),
   };
 };
 

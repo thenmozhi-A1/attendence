@@ -29,7 +29,7 @@ const FingerprintLogin = () => {
 
     try {
       // Step 1: Get challenge from server
-      // Step 2: Prompt fingerprint via navigator.credentials.get()
+      // Step 2: Prompt biometric/passkey via navigator.credentials.get()
       // Step 3: Verify signed challenge with server
       setScanning(true);
       const result = await webauthnService.authenticate(employeeCode.trim());
@@ -83,8 +83,8 @@ const FingerprintLogin = () => {
 
       <div className="fingerprint-instructions">
         {scanning
-          ? 'Place your finger on the sensor to authenticate...'
-          : 'Enter your employee code and press the button below to authenticate with your fingerprint.'}
+          ? 'Complete the biometric prompt to authenticate...'
+          : 'Enter your employee code and press the button below to authenticate with your device biometric.'}
       </div>
 
       {error && <div className="alert alert-error">{error}</div>}
@@ -113,7 +113,7 @@ const FingerprintLogin = () => {
           {loading ? (
             <>
               <span className="spinner" style={{ width: 18, height: 18, borderWidth: 2 }} />
-              {scanning ? 'Scanning Fingerprint...' : 'Authenticating...'}
+              {scanning ? 'Waiting for Biometric...' : 'Authenticating...'}
             </>
           ) : (
             <>
@@ -122,7 +122,7 @@ const FingerprintLogin = () => {
                 <path d="M12 10a2 2 0 0 0-2 2c0 1.02-.1 2.51-.26 4" />
                 <path d="M14 13.12c0 2.38 0 6.38-1 8.88" />
               </svg>
-              Authenticate with Fingerprint
+              Authenticate with Biometric
             </>
           )}
         </button>

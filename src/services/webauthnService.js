@@ -7,29 +7,37 @@ import {
   isWebAuthnSupported,
 } from '../utils/webauthn';
 
+const unwrap = (response) => response?.data?.data ?? response?.data ?? response;
+
 const webauthnService = {
   isSupported: isWebAuthnSupported,
 
   registerChallenge: async (employeeId) => {
     const response = await api.post('/webauthn/register/challenge', null, { params: { employeeId } });
-    return response.data;
+    return unwrap(response);
   },
 
-  registerVerify: async (credential) => {
-    const processed = processRegistrationCredential(credential);
+  registerVerify: async (employeeId, credential) => {
+    const processed = {
+      employeeId,
+      ...processRegistrationCredential(credential),
+    };
     const response = await api.post('/webauthn/register/verify', processed);
-    return response.data;
+    return unwrap(response);
   },
 
   authChallenge: async (employeeId) => {
     const response = await api.post('/webauthn/auth/challenge', null, { params: { employeeId } });
-    return response.data;
+    return unwrap(response);
   },
 
-  authVerify: async (credential) => {
-    const processed = processAuthenticationCredential(credential);
+  authVerify: async (employeeId, credential) => {
+    const processed = {
+      employeeId,
+      ...processAuthenticationCredential(credential),
+    };
     const response = await api.post('/webauthn/auth/verify', processed);
-    return response.data;
+    return unwrap(response);
   },
 
   /**
@@ -57,7 +65,7 @@ const webauthnService = {
     }
 
     // Step 3: Verify with server
-    const result = await webauthnService.registerVerify(credential);
+    const result = await webauthnService.registerVerify(employeeId, credential);
     return result;
   },
 
@@ -86,7 +94,7 @@ const webauthnService = {
     }
 
     // Step 3: Verify with server
-    const result = await webauthnService.authVerify(credential);
+    const result = await webauthnService.authVerify(challengeData.employeeId || employeeCode, credential);
     return result;
   },
 };

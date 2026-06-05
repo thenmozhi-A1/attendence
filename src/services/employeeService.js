@@ -29,12 +29,6 @@ const employeeService = {
     return unwrap(response);
   },
 
-  updateFingerprint: async (id, fingerprintData) => {
-    const response = await api.put(`/employees/${id}/fingerprint`, fingerprintData, {
-      headers: { 'Content-Type': 'text/plain' }
-    });
-    return unwrap(response);
-  },
 };
 
 export default employeeService;

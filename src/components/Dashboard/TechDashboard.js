@@ -70,8 +70,11 @@ const TechDashboard = () => {
           return;
         }
 
-        await webauthnService.authenticate(employeeId);
-        data.biometricVerified = true;
+        const biometricResult = await webauthnService.authenticate(employeeId);
+        data.webAuthnToken = biometricResult.biometricToken;
+        if (!data.webAuthnToken) {
+          throw new Error('Biometric verification did not return a check-in token');
+        }
       }
 
       await attendanceService.checkIn(data);
@@ -102,7 +105,7 @@ const TechDashboard = () => {
   const handleRegisterFingerprint = async () => {
     const userId = user?.id || user?.employeeId;
     if (!userId) {
-      setError('Employee ID not found. Cannot register fingerprint.');
+      setError('Employee ID not found. Cannot register biometric.');
       return;
     }
     setRegisterLoading(true);
