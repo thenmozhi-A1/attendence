@@ -2,7 +2,6 @@ import React, { useState, useEffect, useCallback } from 'react';
 import attendanceService from '../../services/attendanceService';
 import leaveService from '../../services/leaveService';
 import webauthnService from '../../services/webauthnService';
-import employeeService from '../../services/employeeService';
 import { getCurrentUser } from '../../utils/auth';
 import { formatDate, formatTime, calculateWorkHours, getStatusBadgeClass, getStatusLabel } from '../../utils/helpers';
 import LeaveRequestForm from '../Leave/LeaveRequestForm';
@@ -18,8 +17,6 @@ const TechDashboard = () => {
   const [success, setSuccess] = useState('');
   const [showLeaveForm, setShowLeaveForm] = useState(false);
   const [registerLoading, setRegisterLoading] = useState(false);
-  const [fingerprintInput, setFingerprintInput] = useState('');
-  const [employeeFingerprint, setEmployeeFingerprint] = useState('');
 
   const userId = user?.id || user?.employeeId;
 
@@ -60,19 +57,28 @@ const TechDashboard = () => {
     try {
       const data = {};
       const userIsTech = user?.role === 'tech';
-      if (fingerprintInput) {
-        data.fingerprintData = fingerprintInput;
+
+      if (userIsTech) {
+        if (!webauthnService.isSupported()) {
+          setError('This browser/device does not support biometric check-in.');
+          return;
+        }
+
+        const employeeId = user?.id || user?.employeeId || user?.employeeCode;
+        if (!employeeId) {
+          setError('Employee ID not found. Cannot verify biometric check-in.');
+          return;
+        }
+
+        await webauthnService.authenticate(employeeId);
+        data.biometricVerified = true;
       }
-      if (userIsTech && !fingerprintInput) {
-        setError('Fingerprint data is required for tech employees to check in.');
-        return;
-      }
+
       await attendanceService.checkIn(data);
       setSuccess('Checked in successfully!');
-      setFingerprintInput('');
       fetchData();
     } catch (err) {
-      setError(err.response?.data?.message || 'Failed to check in');
+      setError(err.response?.data?.message || err.message || 'Failed to check in');
     } finally {
       setActionLoading(false);
     }
@@ -99,18 +105,18 @@ const TechDashboard = () => {
       setError('Employee ID not found. Cannot register fingerprint.');
       return;
     }
-    if (!fingerprintInput) {
-      setError('Please enter fingerprint data first.');
-      return;
-    }
     setRegisterLoading(true);
     setError('');
     try {
-      await employeeService.updateFingerprint(userId, fingerprintInput);
-      setSuccess('Fingerprint registered successfully! You can now use it to check in.');
-      setFingerprintInput('');
+      if (!webauthnService.isSupported()) {
+        setError('This browser/device does not support biometric registration.');
+        return;
+      }
+
+      await webauthnService.register(userId);
+      setSuccess('Biometric registered successfully! You can now use it to check in.');
     } catch (err) {
-      setError(err.response?.data?.message || 'Failed to register fingerprint');
+      setError(err.response?.data?.message || err.message || 'Failed to register biometric');
     } finally {
       setRegisterLoading(false);
     }
@@ -198,19 +204,6 @@ const TechDashboard = () => {
 
             {!hasCheckedIn && (
               <>
-                <div style={{ marginBottom: 16 }}>
-                  <label style={{ fontSize: '0.8125rem', color: '#5f6368', marginBottom: 4, display: 'block' }}>
-                    Fingerprint Data (Required for Tech Employees)
-                  </label>
-                  <input
-                    type="text"
-                    className="form-input"
-                    placeholder="Enter your fingerprint data"
-                    value={fingerprintInput}
-                    onChange={(e) => setFingerprintInput(e.target.value)}
-                    style={{ width: '100%' }}
-                  />
-                </div>
                 <button
                   className="check-in-btn check-in"
                   onClick={handleCheckIn}
@@ -227,7 +220,7 @@ const TechDashboard = () => {
                         <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
                         <polyline points="22 4 12 14.01 9 11.01" />
                       </svg>
-                      Check In
+                      Verify & Check In
                     </>
                   )}
                 </button>

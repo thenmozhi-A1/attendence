@@ -1,9 +1,28 @@
 import React from 'react';
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import EmployeeForm from './EmployeeForm';
+import employeeService from '../../services/employeeService';
+import webauthnService from '../../services/webauthnService';
+
+jest.mock('../../services/employeeService', () => ({
+  addEmployee: jest.fn(),
+  updateEmployee: jest.fn(),
+}));
+
+jest.mock('../../services/webauthnService', () => ({
+  isSupported: jest.fn(),
+  register: jest.fn(),
+}));
 
 describe('EmployeeForm', () => {
-  it('requires fingerprint data when role is tech', async () => {
+  beforeEach(() => {
+    jest.clearAllMocks();
+    employeeService.addEmployee.mockResolvedValue({ id: 'emp-1', employeeCode: 'EMP001' });
+    webauthnService.isSupported.mockReturnValue(true);
+    webauthnService.register.mockResolvedValue({});
+  });
+
+  it('registers device biometric after saving a tech employee', async () => {
     const onSuccess = jest.fn();
     const onCancel = jest.fn();
 
@@ -33,9 +52,10 @@ describe('EmployeeForm', () => {
 
     fireEvent.click(screen.getByRole('button', { name: /Add Employee/i }));
 
-    // Check for error message (exact text match to avoid picking up helper text)
-    const errorElements = screen.queryAllByText('Fingerprint data is required for tech employees');
-    expect(errorElements.length).toBeGreaterThan(0);
-    expect(onSuccess).not.toHaveBeenCalled();
+    await waitFor(() => {
+      expect(employeeService.addEmployee).toHaveBeenCalled();
+      expect(webauthnService.register).toHaveBeenCalledWith('emp-1');
+      expect(onSuccess).toHaveBeenCalled();
+    });
   });
 });

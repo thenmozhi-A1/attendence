@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import employeeService from '../../services/employeeService';
+import webauthnService from '../../services/webauthnService';
 import { validateEmail, validatePhone, validateRequired } from '../../utils/helpers';
 
 const departments = [
@@ -31,7 +32,6 @@ const EmployeeForm = ({ employee, onSuccess, onCancel }) => {
     monthlySalary: '',
     hireDate: '',
     status: 'active',
-    fingerprintData: '',
   });
 
   const [errors, setErrors] = useState({});
@@ -51,7 +51,6 @@ const EmployeeForm = ({ employee, onSuccess, onCancel }) => {
         monthlySalary: employee.monthlySalary || '',
         hireDate: employee.hireDate ? employee.hireDate.split('T')[0] : '',
         status: employee.status || 'active',
-        fingerprintData: employee.fingerprintData || '',
       });
     }
   }, [employee]);
@@ -81,9 +80,6 @@ const EmployeeForm = ({ employee, onSuccess, onCancel }) => {
     }
     if (!validateRequired(formData.role)) {
       newErrors.role = 'Role is required';
-    }
-    if (formData.role === 'tech' && !validateRequired(formData.fingerprintData)) {
-      newErrors.fingerprintData = 'Fingerprint data is required for tech employees';
     }
     if (formData.monthlySalary && Number(formData.monthlySalary) < 0) {
       newErrors.monthlySalary = 'Salary cannot be negative';
@@ -119,11 +115,25 @@ const EmployeeForm = ({ employee, onSuccess, onCancel }) => {
         monthlySalary: formData.monthlySalary === '' ? 0 : Number(formData.monthlySalary),
       };
 
-      if (isEditing) {
-        await employeeService.updateEmployee(employee.id, payload);
-      } else {
-        await employeeService.addEmployee(payload);
+      const savedEmployee = isEditing
+        ? await employeeService.updateEmployee(employee.id, payload)
+        : await employeeService.addEmployee(payload);
+
+      if (payload.role === 'tech') {
+        if (!webauthnService.isSupported()) {
+          throw new Error('This browser/device does not support biometric registration');
+        }
+
+        const employeeForRegistration = savedEmployee || employee || payload;
+        const employeeId =
+          employeeForRegistration.id ||
+          employeeForRegistration.employeeId ||
+          employeeForRegistration.employeeCode ||
+          payload.employeeCode;
+
+        await webauthnService.register(employeeId);
       }
+
       onSuccess();
     } catch (err) {
       const message =
@@ -321,21 +331,8 @@ const EmployeeForm = ({ employee, onSuccess, onCancel }) => {
       )}
 
       {formData.role === 'tech' && (
-        <div className="form-group">
-          <label htmlFor="fingerprintData">Fingerprint Data</label>
-          <input
-            id="fingerprintData"
-            type="text"
-            name="fingerprintData"
-            className={`form-input ${errors.fingerprintData ? 'error' : ''}`}
-            placeholder="Enter fingerprint data"
-            value={formData.fingerprintData}
-            onChange={handleChange}
-          />
-          {errors.fingerprintData && <div className="form-error">{errors.fingerprintData}</div>}
-          <small style={{ color: '#5f6368', fontSize: '0.8rem' }}>
-            Fingerprint data is required for tech employees to check in
-          </small>
+        <div className="alert alert-info">
+          The device biometric prompt will open after saving this tech employee.
         </div>
       )}
 
