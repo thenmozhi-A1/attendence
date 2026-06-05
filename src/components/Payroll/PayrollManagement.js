@@ -87,7 +87,48 @@ const PayrollManagement = () => {
           </div>
 
           {payrolls.length > 0 ? (
-            <div className="table-container">
+            <>
+            <div className="payroll-mobile-list">
+              {payrolls.map((item) => (
+                <div className="payroll-mobile-card" key={`mobile-${item.employeeId}`}>
+                  <div className="payroll-mobile-card-header">
+                    <div>
+                      <h3>{item.employeeName}</h3>
+                      <span>{item.employeeCode}</span>
+                    </div>
+                    <strong>{currency.format(item.netSalary || 0)}</strong>
+                  </div>
+                  <div className="payroll-mobile-meta">
+                    <div>
+                      <span>Department</span>
+                      <strong>{item.departmentName || '-'}</strong>
+                    </div>
+                    <div>
+                      <span>Monthly</span>
+                      <strong>{currency.format(item.monthlySalary || 0)}</strong>
+                    </div>
+                    <div>
+                      <span>Leave</span>
+                      <strong>{item.leaveDays || 0}</strong>
+                    </div>
+                    <div>
+                      <span>Permission</span>
+                      <strong>{item.permissionDays || 0}</strong>
+                    </div>
+                    <div>
+                      <span>Absent</span>
+                      <strong>{item.absentDays || 0}</strong>
+                    </div>
+                    <div>
+                      <span>Deduction</span>
+                      <strong className="payroll-negative">{currency.format(item.totalDeduction || 0)}</strong>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <div className="table-container payroll-table-container">
               <table className="data-table">
                 <thead>
                   <tr>
@@ -124,6 +165,7 @@ const PayrollManagement = () => {
                 </tbody>
               </table>
             </div>
+            </>
           ) : (
             <div className="card">
               <div className="empty-state">
