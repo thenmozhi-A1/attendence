@@ -8,6 +8,7 @@ const pageTitles = {
   '/admin/employees': 'Employee Management',
   '/admin/attendance': 'Attendance Records',
   '/admin/leaves': 'Leave Management',
+  '/admin/payroll': 'Payroll',
   '/tech/dashboard': 'Dashboard',
   '/accounts/dashboard': 'Dashboard',
 };
