@@ -43,7 +43,7 @@ const TechDashboard = () => {
         setLeaveHistory(Array.isArray(val) ? val : (val?.leaves || val?.data || []));
       }
     } catch (err) {
-      setError('Failed to load data');
+      setError(err.response?.data?.message || err.message || 'Failed to load data');
     } finally {
       setLoading(false);
     }

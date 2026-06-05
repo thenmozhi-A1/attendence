@@ -51,7 +51,7 @@ const AccountsDashboard = () => {
         }
       }
     } catch (err) {
-      setError('Failed to load data');
+      setError(err.response?.data?.message || err.message || 'Failed to load data');
     } finally {
       setLoading(false);
     }
