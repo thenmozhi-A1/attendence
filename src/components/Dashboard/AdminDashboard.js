@@ -33,7 +33,9 @@ const AdminDashboard = () => {
         setRecentLeaves([]);
       }
     } catch (err) {
-      setError(err.response?.data?.message || 'Failed to load dashboard data');
+      setError(err.response?.data?.message || err.message || 'Failed to load dashboard data');
+      setStats(null);
+      setAttendanceChart([]);
     } finally {
       setLoading(false);
     }
@@ -50,10 +52,6 @@ const AdminDashboard = () => {
         <span className="loading-text">Loading dashboard...</span>
       </div>
     );
-  }
-
-  if (error) {
-    return <div className="alert alert-error">{error}</div>;
   }
 
   const statCards = [
@@ -121,6 +119,8 @@ const AdminDashboard = () => {
 
   return (
     <div>
+      {error && <div className="alert alert-error" style={{ marginBottom: 16 }}>{error}</div>}
+
       {/* Stat Cards */}
       <div className="stats-grid">
         {statCards.map((stat) => (
