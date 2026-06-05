@@ -40,7 +40,7 @@ const AdminLogin = () => {
     setApiError('');
 
     try {
-      const data = await authService.adminLogin(formData.username, formData.password);
+      const data = await authService.adminLogin(formData.username.trim(), formData.password);
       if (data.user && data.user.role === 'admin') {
         navigate('/admin/dashboard');
       } else {
@@ -74,6 +74,9 @@ const AdminLogin = () => {
           value={formData.username}
           onChange={handleChange}
           autoComplete="username"
+          autoCapitalize="none"
+          autoCorrect="off"
+          spellCheck="false"
           autoFocus
         />
         {errors.username && <div className="form-error">{errors.username}</div>}
