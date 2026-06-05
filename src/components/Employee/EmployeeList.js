@@ -212,7 +212,64 @@ const EmployeeList = () => {
         </div>
       ) : employees.length > 0 ? (
         <>
-          <div className="table-container">
+          <div className="employee-mobile-list">
+            {employees.map((emp) => (
+              <div className="employee-mobile-card" key={`mobile-${emp.id}`}>
+                <div className="employee-mobile-card-header">
+                  <div className="employee-mobile-identity">
+                    <div className="user-avatar">
+                      {getInitials(emp.firstName, emp.lastName)}
+                    </div>
+                    <div>
+                      <h3>{emp.firstName} {emp.lastName}</h3>
+                      <span>{emp.employeeCode || 'No code'}</span>
+                    </div>
+                  </div>
+                  <span className={`badge ${getStatusBadgeClass(emp.status || 'active')}`}>
+                    {getStatusLabel(emp.status || 'Active')}
+                  </span>
+                </div>
+
+                <div className="employee-mobile-meta">
+                  <div>
+                    <span>Email</span>
+                    <strong>{emp.email || '-'}</strong>
+                  </div>
+                  <div>
+                    <span>Phone</span>
+                    <strong>{emp.phone || '-'}</strong>
+                  </div>
+                  <div>
+                    <span>Department</span>
+                    <strong>{emp.department || '-'}</strong>
+                  </div>
+                  <div>
+                    <span>Role</span>
+                    <strong>{emp.role || '-'}</strong>
+                  </div>
+                  <div>
+                    <span>Salary</span>
+                    <strong>{emp.monthlySalary ? `₹${Number(emp.monthlySalary).toLocaleString('en-IN')}` : '-'}</strong>
+                  </div>
+                  <div>
+                    <span>Hire Date</span>
+                    <strong>{formatDate(emp.hireDate)}</strong>
+                  </div>
+                </div>
+
+                <div className="employee-mobile-actions">
+                  <button className="btn btn-outline btn-sm" onClick={() => handleEdit(emp)}>
+                    Edit
+                  </button>
+                  <button className="btn btn-danger btn-sm" onClick={() => setDeleteConfirm(emp.id)}>
+                    Delete
+                  </button>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="table-container employee-table-container">
             <table className="data-table">
               <thead>
                 <tr>

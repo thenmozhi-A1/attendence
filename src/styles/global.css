@@ -1150,6 +1150,10 @@ input, select, textarea {
   display: none;
 }
 
+.employee-mobile-list {
+  display: none;
+}
+
 /* ============ Modal Overlay ============ */
 .modal-overlay {
   position: fixed;
@@ -1599,12 +1603,22 @@ input, select, textarea {
     display: none;
   }
 
+  .employee-table-container {
+    display: none;
+  }
+
   .payroll-mobile-list {
     display: grid;
     gap: 12px;
   }
 
-  .payroll-mobile-card {
+  .employee-mobile-list {
+    display: grid;
+    gap: 12px;
+  }
+
+  .payroll-mobile-card,
+  .employee-mobile-card {
     background: #fff;
     border: 1px solid var(--gray-200);
     border-radius: var(--radius-md);
@@ -1612,25 +1626,47 @@ input, select, textarea {
     overflow: hidden;
   }
 
-  .payroll-mobile-card-header {
+  .payroll-mobile-card-header,
+  .employee-mobile-card-header {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     gap: 12px;
     padding: 14px;
     border-bottom: 1px solid var(--gray-100);
   }
 
-  .payroll-mobile-card-header h3 {
+  .payroll-mobile-card-header h3,
+  .employee-mobile-card-header h3 {
     font-size: 0.9375rem;
     line-height: 1.3;
     color: var(--gray-900);
     margin-bottom: 2px;
   }
 
-  .payroll-mobile-card-header span {
+  .payroll-mobile-card-header span,
+  .employee-mobile-card-header span {
     font-size: 0.75rem;
     color: var(--gray-500);
     font-family: monospace;
+  }
+
+  .employee-mobile-identity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 0;
+  }
+
+  .employee-mobile-identity .user-avatar {
+    display: flex;
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+  }
+
+  .employee-mobile-identity h3 {
+    overflow-wrap: anywhere;
   }
 
   .payroll-mobile-card-header > strong {
@@ -1641,27 +1677,31 @@ input, select, textarea {
     text-align: right;
   }
 
-  .payroll-mobile-meta {
+  .payroll-mobile-meta,
+  .employee-mobile-meta {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1px;
     background: var(--gray-100);
   }
 
-  .payroll-mobile-meta > div {
+  .payroll-mobile-meta > div,
+  .employee-mobile-meta > div {
     background: #fff;
     padding: 10px 12px;
     min-width: 0;
   }
 
-  .payroll-mobile-meta span {
+  .payroll-mobile-meta span,
+  .employee-mobile-meta span {
     display: block;
     font-size: 0.6875rem;
     color: var(--gray-500);
     margin-bottom: 2px;
   }
 
-  .payroll-mobile-meta strong {
+  .payroll-mobile-meta strong,
+  .employee-mobile-meta strong {
     display: block;
     font-size: 0.8125rem;
     line-height: 1.3;
@@ -1671,6 +1711,27 @@ input, select, textarea {
 
   .payroll-mobile-meta .payroll-negative {
     color: #c5221f;
+  }
+
+  .employee-mobile-meta strong {
+    text-transform: capitalize;
+  }
+
+  .employee-mobile-meta div:first-child,
+  .employee-mobile-meta div:nth-child(2) {
+    grid-column: span 2;
+  }
+
+  .employee-mobile-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 12px;
+    border-top: 1px solid var(--gray-100);
+  }
+
+  .employee-mobile-actions .btn {
+    width: 100%;
   }
 }
 
