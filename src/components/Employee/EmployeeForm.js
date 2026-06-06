@@ -37,7 +37,6 @@ const EmployeeForm = ({ employee, onSuccess, onCancel }) => {
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
   const [apiError, setApiError] = useState('');
-  const [infoMessage, setInfoMessage] = useState('');
 
   useEffect(() => {
     if (employee) {
@@ -108,7 +107,6 @@ const EmployeeForm = ({ employee, onSuccess, onCancel }) => {
 
     setLoading(true);
     setApiError('');
-    setInfoMessage('');
 
     try {
       const payload = {
@@ -122,19 +120,16 @@ const EmployeeForm = ({ employee, onSuccess, onCancel }) => {
         : await employeeService.addEmployee(payload);
 
       if (payload.role === 'tech') {
+        const employeeId = savedEmployee?.id || employee?.id || employee?.employeeId;
+
         if (!webauthnService.isSupported()) {
-          setInfoMessage(
-            'Employee saved, but biometric registration is not supported by this browser. Please complete WebAuthn registration on a supported device.'
-          );
+          onSuccess();
           return;
         }
 
-        const employeeForRegistration = savedEmployee || employee || payload;
-        const employeeId =
-          employeeForRegistration.id ||
-          employeeForRegistration.employeeId ||
-          employeeForRegistration.employeeCode ||
-          payload.employeeCode;
+        if (!employeeId) {
+          throw new Error('Unable to register biometric credential because the employee ID is missing');
+        }
 
         await webauthnService.register(employeeId);
       }
@@ -154,7 +149,6 @@ const EmployeeForm = ({ employee, onSuccess, onCancel }) => {
   return (
     <form onSubmit={handleSubmit}>
       {apiError && <div className="alert alert-error">{apiError}</div>}
-      {infoMessage && <div className="alert alert-info">{infoMessage}</div>}
 
       <div className="form-row">
         <div className="form-group">
