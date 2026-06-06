@@ -37,6 +37,7 @@ const EmployeeForm = ({ employee, onSuccess, onCancel }) => {
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
   const [apiError, setApiError] = useState('');
+  const [infoMessage, setInfoMessage] = useState('');
 
   useEffect(() => {
     if (employee) {
@@ -107,6 +108,7 @@ const EmployeeForm = ({ employee, onSuccess, onCancel }) => {
 
     setLoading(true);
     setApiError('');
+    setInfoMessage('');
 
     try {
       const payload = {
@@ -121,7 +123,10 @@ const EmployeeForm = ({ employee, onSuccess, onCancel }) => {
 
       if (payload.role === 'tech') {
         if (!webauthnService.isSupported()) {
-          throw new Error('This browser/device does not support biometric registration');
+          setInfoMessage(
+            'Employee saved, but biometric registration is not supported by this browser. Please complete WebAuthn registration on a supported device.'
+          );
+          return;
         }
 
         const employeeForRegistration = savedEmployee || employee || payload;
@@ -149,6 +154,7 @@ const EmployeeForm = ({ employee, onSuccess, onCancel }) => {
   return (
     <form onSubmit={handleSubmit}>
       {apiError && <div className="alert alert-error">{apiError}</div>}
+      {infoMessage && <div className="alert alert-info">{infoMessage}</div>}
 
       <div className="form-row">
         <div className="form-group">
