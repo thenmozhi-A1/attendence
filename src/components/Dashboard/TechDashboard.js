@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import attendanceService from '../../services/attendanceService';
 import leaveService from '../../services/leaveService';
-import webauthnService from '../../services/webauthnService';
 import { getCurrentUser } from '../../utils/auth';
 import { formatDate, formatTime, calculateWorkHours, getStatusBadgeClass, getStatusLabel } from '../../utils/helpers';
 import LeaveRequestForm from '../Leave/LeaveRequestForm';
@@ -16,7 +15,6 @@ const TechDashboard = () => {
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
   const [showLeaveForm, setShowLeaveForm] = useState(false);
-  const [registerLoading, setRegisterLoading] = useState(false);
 
   const userId = user?.id || user?.employeeId;
 
@@ -56,26 +54,6 @@ const TechDashboard = () => {
     setSuccess('');
     try {
       const data = {};
-      const userIsTech = user?.role === 'tech';
-
-      if (userIsTech) {
-        if (!webauthnService.isSupported()) {
-          setError('This browser/device does not support biometric check-in.');
-          return;
-        }
-
-        const employeeId = user?.id || user?.employeeId || user?.employeeCode;
-        if (!employeeId) {
-          setError('Employee ID not found. Cannot verify biometric check-in.');
-          return;
-        }
-
-        const biometricResult = await webauthnService.authenticate(employeeId);
-        data.webAuthnToken = biometricResult.biometricToken;
-        if (!data.webAuthnToken) {
-          throw new Error('Biometric verification did not return a check-in token');
-        }
-      }
 
       await attendanceService.checkIn(data);
       setSuccess('Checked in successfully!');
@@ -102,28 +80,6 @@ const TechDashboard = () => {
     }
   };
 
-  const handleRegisterFingerprint = async () => {
-    const userId = user?.id || user?.employeeId;
-    if (!userId) {
-      setError('Employee ID not found. Cannot register biometric.');
-      return;
-    }
-    setRegisterLoading(true);
-    setError('');
-    try {
-      if (!webauthnService.isSupported()) {
-        setError('This browser/device does not support biometric registration.');
-        return;
-      }
-
-      await webauthnService.register(userId);
-      setSuccess('Biometric registered successfully! You can now use it to check in.');
-    } catch (err) {
-      setError(err.response?.data?.message || err.message || 'Failed to register biometric');
-    } finally {
-      setRegisterLoading(false);
-    }
-  };
 
   const handleLeaveSuccess = () => {
     setShowLeaveForm(false);
@@ -266,14 +222,6 @@ const TechDashboard = () => {
                 onClick={() => setShowLeaveForm(true)}
               >
                 Request Leave
-              </button>
-              <button
-                className="btn btn-outline btn-sm"
-                style={{ flex: 1 }}
-                onClick={handleRegisterFingerprint}
-                disabled={registerLoading}
-              >
-                {registerLoading ? 'Registering...' : 'Register Fingerprint'}
               </button>
             </div>
           </div>

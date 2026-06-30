@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import employeeService from '../../services/employeeService';
-import webauthnService from '../../services/webauthnService';
 import { validateEmail, validatePhone, validateRequired } from '../../utils/helpers';
 
 const departments = [
@@ -30,6 +29,7 @@ const EmployeeForm = ({ employee, onSuccess, onCancel }) => {
     department: '',
     role: '',
     monthlySalary: '',
+    password: '',
     hireDate: '',
     status: 'active',
   });
@@ -118,21 +118,6 @@ const EmployeeForm = ({ employee, onSuccess, onCancel }) => {
       const savedEmployee = isEditing
         ? await employeeService.updateEmployee(employee.id, payload)
         : await employeeService.addEmployee(payload);
-
-      if (payload.role === 'tech') {
-        const employeeId = savedEmployee?.id || employee?.id || employee?.employeeId;
-
-        if (!webauthnService.isSupported()) {
-          onSuccess();
-          return;
-        }
-
-        if (!employeeId) {
-          throw new Error('Unable to register biometric credential because the employee ID is missing');
-        }
-
-        await webauthnService.register(employeeId);
-      }
 
       onSuccess();
     } catch (err) {
@@ -311,7 +296,19 @@ const EmployeeForm = ({ employee, onSuccess, onCancel }) => {
           />
           {errors.monthlySalary && <div className="form-error">{errors.monthlySalary}</div>}
         </div>
-        <div className="form-group" />
+        <div className="form-group">
+          <label htmlFor="password">Password {!isEditing && <span className="required">*</span>}</label>
+          <input
+            id="password"
+            type="password"
+            name="password"
+            className={`form-input ${errors.password ? 'error' : ''}`}
+            placeholder="Enter password"
+            value={formData.password}
+            onChange={handleChange}
+          />
+          {errors.password && <div className="form-error">{errors.password}</div>}
+        </div>
       </div>
 
       {isEditing && (
@@ -330,11 +327,7 @@ const EmployeeForm = ({ employee, onSuccess, onCancel }) => {
         </div>
       )}
 
-      {formData.role === 'tech' && (
-        <div className="alert alert-info">
-          The device biometric prompt will open after saving this tech employee.
-        </div>
-      )}
+
 
       <div style={{ display: 'flex', justifyContent: 'flex-end', gap: 12, marginTop: 8 }}>
         <button type="button" className="btn btn-ghost" onClick={onCancel}>

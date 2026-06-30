@@ -2,7 +2,7 @@ import React, { useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import authService from '../../services/authService';
 
-const AdminLogin = () => {
+const LoginForm = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({ username: '', password: '' });
   const [errors, setErrors] = useState({});
@@ -40,11 +40,19 @@ const AdminLogin = () => {
     setApiError('');
 
     try {
-      const data = await authService.adminLogin(formData.username.trim(), formData.password);
-      if (data.user && data.user.role === 'admin') {
-        navigate('/admin/dashboard');
+      const data = await authService.login(formData.username.trim(), formData.password);
+      if (data.user) {
+        if (data.user.role === 'admin') {
+          navigate('/admin/dashboard');
+        } else if (data.user.role === 'tech') {
+          navigate('/tech/dashboard');
+        } else if (data.user.role === 'accounts') {
+          navigate('/accounts/dashboard');
+        } else {
+          navigate('/');
+        }
       } else {
-        setApiError('Access denied. Admin role required.');
+        setApiError('Access denied.');
         authService.logout();
       }
     } catch (error) {
@@ -116,4 +124,4 @@ const AdminLogin = () => {
   );
 };
 
-export default AdminLogin;
+export default LoginForm;

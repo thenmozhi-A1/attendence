@@ -1,7 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { QRCodeSVG } from 'qrcode.react';
 import attendanceService from '../../services/attendanceService';
-import scannerService from '../../services/scannerService';
 import leaveService from '../../services/leaveService';
 import { getCurrentUser } from '../../utils/auth';
 import { formatDate, formatTime, calculateWorkHours, getStatusBadgeClass, getStatusLabel } from '../../utils/helpers';
@@ -11,7 +9,6 @@ const AccountsDashboard = () => {
   const user = getCurrentUser();
   const [todayStatus, setTodayStatus] = useState(null);
   const [attendanceHistory, setAttendanceHistory] = useState([]);
-  const [qrCodeData, setQrCodeData] = useState('');
   const [loading, setLoading] = useState(true);
   const [actionLoading, setActionLoading] = useState(false);
   const [error, setError] = useState('');
@@ -33,23 +30,7 @@ const AccountsDashboard = () => {
         setAttendanceHistory(Array.isArray(recordsData.value) ? recordsData.value : (recordsData.value?.records || recordsData.value?.content || recordsData.value?.data || []));
       }
 
-      // Fetch QR code
-      if (user?.id || user?.employeeId) {
-        try {
-          const qrData = await scannerService.getQrCode(user.id || user.employeeId);
-          setQrCodeData(qrData.qrCode || qrData.data || JSON.stringify(qrData));
-        } catch {
-          // Generate a fallback QR code with employee info
-          setQrCodeData(
-            JSON.stringify({
-              employeeId: user.id || user.employeeId,
-              employeeCode: user.employeeCode || '',
-              name: `${user.firstName || ''} ${user.lastName || ''}`.trim(),
-              timestamp: new Date().toISOString(),
-            })
-          );
-        }
-      }
+
     } catch (err) {
       setError(err.response?.data?.message || err.message || 'Failed to load data');
     } finally {
@@ -139,34 +120,7 @@ const AccountsDashboard = () => {
       )}
 
       <div className="content-grid">
-        {/* QR Code Section */}
-        <div className="card">
-          <div className="card-header">
-            <h3>My QR Code</h3>
-          </div>
-          <div className="card-body">
-            <div className="qr-code-container">
-              <h4>Scan this QR code for attendance</h4>
-              {qrCodeData ? (
-                <QRCodeSVG
-                  value={qrCodeData}
-                  size={200}
-                  level="M"
-                  bgColor="#ffffff"
-                  fgColor="#202124"
-                  includeMargin={true}
-                />
-              ) : (
-                <div style={{ width: 200, height: 200, display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#f1f3f4', borderRadius: 8 }}>
-                  <span style={{ color: '#5f6368', fontSize: '0.875rem' }}>Loading QR Code...</span>
-                </div>
-              )}
-              <p style={{ fontSize: '0.75rem', color: '#9aa0a6', marginTop: 12 }}>
-                Present this code at the scanner to verify your attendance
-              </p>
-            </div>
-          </div>
-        </div>
+
 
         {/* Check-in/out Section */}
         <div className="card">

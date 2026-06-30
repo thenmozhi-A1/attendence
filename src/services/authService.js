@@ -2,8 +2,8 @@ import api from './api';
 import { setToken, setCurrentUser, getToken, getCurrentUser, removeToken, removeCurrentUser, isAuthenticated } from '../utils/auth';
 
 const authService = {
-  adminLogin: async (username, password) => {
-    const response = await api.post('/auth/admin-login', { username, password });
+  login: async (username, password) => {
+    const response = await api.post('/auth/login', { username, password });
     const loginData = response.data?.data || response.data;
     const { token, employeeId, role, name } = loginData;
     const user = {
