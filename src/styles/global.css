@@ -1832,3 +1832,123 @@ input, select, textarea {
     font-size: 0.75rem;
   }
 }
+
+/* Attendance Grid Styles */
+.attendance-grid-container {
+  overflow-x: auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: white;
+}
+
+.attendance-grid-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.attendance-grid-table th {
+  background-color: #2b3035;
+  color: white;
+  padding: 8px 4px;
+  border: 1px solid #444;
+  white-space: nowrap;
+  font-weight: 600;
+  min-width: 40px;
+}
+
+.attendance-grid-table td {
+  padding: 8px 4px;
+  border: 1px solid #e0e0e0;
+}
+
+.attendance-grid-table .employee-col {
+  position: sticky;
+  left: 0;
+  background-color: #2b3035;
+  color: white;
+  text-align: left;
+  padding: 8px 16px;
+  z-index: 10;
+  min-width: 150px;
+}
+
+.attendance-grid-table tbody .employee-col {
+  background-color: #fff;
+  color: #333;
+  font-weight: 500;
+  border-right: 2px solid #ccc;
+}
+
+.attendance-grid-table tbody tr:hover .employee-col {
+  background-color: #f8f9fa;
+}
+
+.attendance-grid-table .badge-p {
+  background-color: #28a745;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.attendance-grid-table .badge-a {
+  background-color: #dc3545;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.attendance-grid-table .badge-l {
+  background-color: #ffc107;
+  color: #333;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.attendance-grid-table .badge-pr {
+  background-color: #0d6efd;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.attendance-grid-table .badge-s {
+  color: #999;
+  font-weight: bold;
+}
+
+.attendance-grid-table .summary-p {
+  background-color: #e8f5e9;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+.attendance-grid-table .summary-a {
+  background-color: #ffebee;
+  font-weight: bold;
+  color: #c62828;
+}
+
+.legend-bar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+  padding: 12px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  flex-wrap: wrap;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: #555;
+}
