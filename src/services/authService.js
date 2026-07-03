@@ -5,11 +5,15 @@ const authService = {
   login: async (username, password) => {
     const response = await api.post('/auth/login', { username, password });
     const loginData = response.data?.data || response.data;
-    const { token, employeeId, role, name } = loginData;
+    const { token, employeeId, role, name, firstName, employeeCode, department, email } = loginData;
     const user = {
       employeeId,
       role: role?.toLowerCase(),
       name,
+      firstName,
+      employeeCode,
+      department,
+      email,
       username,
     };
     setToken(token);
