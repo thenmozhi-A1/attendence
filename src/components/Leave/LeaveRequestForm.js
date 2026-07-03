@@ -1,16 +1,7 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import leaveService from '../../services/leaveService';
+import api from '../../services/api';
 import { validateRequired, getTodayDateString } from '../../utils/helpers';
-
-const leaveTypes = [
-  { value: 'sick', label: 'Sick Leave' },
-  { value: 'casual', label: 'Casual Leave' },
-  { value: 'annual', label: 'Annual Leave' },
-  { value: 'maternity', label: 'Maternity Leave' },
-  { value: 'paternity', label: 'Paternity Leave' },
-  { value: 'unpaid', label: 'Unpaid Leave' },
-  { value: 'other', label: 'Other' },
-];
 
 const LeaveRequestForm = ({ onSuccess }) => {
   const [formData, setFormData] = useState({
@@ -22,6 +13,27 @@ const LeaveRequestForm = ({ onSuccess }) => {
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
   const [apiError, setApiError] = useState('');
+  const [leaveTypes, setLeaveTypes] = useState([]);
+
+  useEffect(() => {
+    const fetchConfig = async () => {
+      try {
+        const response = await api.get('/config/form-data');
+        const data = response.data?.data || response.data;
+        if (data.leaveTypes) {
+          setLeaveTypes(data.leaveTypes.map(type => {
+            const label = type.split('_')
+              .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+              .join(' ');
+            return { value: type, label };
+          }));
+        }
+      } catch (err) {
+        console.error('Failed to fetch config data', err);
+      }
+    };
+    fetchConfig();
+  }, []);
 
   const validate = useCallback(() => {
     const newErrors = {};

@@ -2,20 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import employeeService from '../../services/employeeService';
 import { validateEmail, validatePhone, validateRequired } from '../../utils/helpers';
 
-const departments = [
-  'engineering',
-  'accounts',
-  'hr',
-  'marketing',
-  'sales',
-  'operations',
-];
-
-const roles = [
-  { value: 'tech', label: 'Tech Employee' },
-  { value: 'accounts', label: 'Accounts Employee' },
-  { value: 'admin', label: 'Admin' },
-];
+import api from '../../services/api';
 
 const EmployeeForm = ({ employee, onSuccess, onCancel }) => {
   const isEditing = !!employee;
@@ -37,6 +24,28 @@ const EmployeeForm = ({ employee, onSuccess, onCancel }) => {
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
   const [apiError, setApiError] = useState('');
+  
+  const [departments, setDepartments] = useState([]);
+  const [roles, setRoles] = useState([]);
+
+  useEffect(() => {
+    const fetchConfig = async () => {
+      try {
+        const response = await api.get('/config/form-data');
+        const data = response.data?.data || response.data;
+        if (data.departments) setDepartments(data.departments);
+        if (data.roles) {
+          setRoles(data.roles.map(r => ({
+            value: r,
+            label: r.charAt(0).toUpperCase() + r.slice(1)
+          })));
+        }
+      } catch (err) {
+        console.error('Failed to fetch config data', err);
+      }
+    };
+    fetchConfig();
+  }, []);
 
   useEffect(() => {
     if (employee) {
