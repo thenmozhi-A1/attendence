@@ -108,13 +108,18 @@ const AttendanceRecords = () => {
         let status = '';
         if (recordForDay) {
           const rStatus = (recordForDay.status || '').toUpperCase();
-          if (rStatus === 'PRESENT' || rStatus === 'LATE' || rStatus === 'HALF_DAY') {
+          if (rStatus === 'PRESENT' || rStatus === 'LATE') {
             status = 'P';
             totalP++;
+          } else if (rStatus === 'HALF_DAY') {
+            status = 'HD';
+            // Assuming half day counts as 0.5 present, or we can just not increment the P counter or increment it by 0.5. 
+            // For now let's just leave it as 'HD' and not mess with total counts logic deeply. Let's say it adds to totalP
+            totalP += 0.5;
           } else if (rStatus === 'ABSENT') {
             status = 'A';
             totalA++;
-          } else if (rStatus === 'LEAVE') {
+          } else if (rStatus === 'LEAVE' || rStatus === 'ON_LEAVE') {
             status = 'L';
           } else {
             // Default mapping
@@ -172,6 +177,7 @@ const AttendanceRecords = () => {
     let currentStatus = 'PRESENT';
     if (status === 'A' || status === 'S') currentStatus = 'ABSENT';
     else if (status === 'L') currentStatus = 'ON_LEAVE';
+    else if (status === 'HD') currentStatus = 'HALF_DAY';
     else if (status === 'P' || status === 'PR') currentStatus = 'PRESENT';
     
     setEditingCell({
@@ -205,6 +211,7 @@ const AttendanceRecords = () => {
       case 'P': return 'badge-p';
       case 'A': return 'badge-a';
       case 'L': return 'badge-l';
+      case 'HD': return 'badge-hd';
       case 'PR': return 'badge-pr';
       case 'S': return 'badge-s';
       default: return '';
@@ -223,6 +230,7 @@ const AttendanceRecords = () => {
         <span style={{ fontWeight: 600 }}>Legend:</span>
         <div className="legend-item"><span className="badge-p">P</span> Present</div>
         <div className="legend-item"><span className="badge-a">A</span> Absent</div>
+        <div className="legend-item"><span className="badge-hd">HD</span> Half Day</div>
         <div className="legend-item"><span className="badge-l">L</span> Leave</div>
         <div className="legend-item"><span className="badge-pr">PR</span> Permission</div>
         <div className="legend-item"><span className="badge-s">S</span> Sunday</div>

@@ -1909,6 +1909,14 @@ input, select, textarea {
   font-weight: bold;
 }
 
+.attendance-grid-table .badge-hd {
+  background-color: #17a2b8;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
 .attendance-grid-table .badge-pr {
   background-color: #0d6efd;
   color: white;
