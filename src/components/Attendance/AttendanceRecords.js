@@ -18,6 +18,9 @@ const AttendanceRecords = () => {
   const [filterGroup, setFilterGroup] = useState('');
   const [searchQuery, setSearchQuery] = useState('');
 
+  // Editing state
+  const [editingCell, setEditingCell] = useState(null);
+
   const fetchEmployeesAndRecords = useCallback(async () => {
     setLoading(true);
     setError('');
@@ -162,6 +165,41 @@ const AttendanceRecords = () => {
     exportToCSV(csvData, `Attendance_${selectedYear}_${selectedMonth + 1}`);
   };
 
+  const handleCellClick = (employee, day, status) => {
+    if (day.isFuture) return;
+    
+    // Map UI letters to backend status enum
+    let currentStatus = 'PRESENT';
+    if (status === 'A' || status === 'S') currentStatus = 'ABSENT';
+    else if (status === 'L') currentStatus = 'ON_LEAVE';
+    else if (status === 'P' || status === 'PR') currentStatus = 'PRESENT';
+    
+    setEditingCell({
+      employeeId: employee.id,
+      employeeName: employee.fullName,
+      date: day.fullDateString,
+      currentStatus
+    });
+  };
+
+  const handleStatusUpdate = async (newStatus) => {
+    if (!editingCell) return;
+    try {
+      setLoading(true);
+      await attendanceService.updateAttendanceByAdmin({
+        employeeId: editingCell.employeeId,
+        date: editingCell.date,
+        status: newStatus,
+        remarks: 'Updated by Admin manually'
+      });
+      await fetchEmployeesAndRecords();
+      setEditingCell(null);
+    } catch (err) {
+      setError(err.response?.data?.message || 'Failed to update attendance');
+      setLoading(false);
+    }
+  };
+
   const getBadgeClass = (status) => {
     switch(status) {
       case 'P': return 'badge-p';
@@ -279,7 +317,12 @@ const AttendanceRecords = () => {
                     </div>
                   </td>
                   {daysArray.map(day => (
-                    <td key={day.date}>
+                    <td 
+                      key={day.date} 
+                      onClick={() => handleCellClick(row, day, row.dailyStatus[day.date])}
+                      style={{ cursor: day.isFuture ? 'default' : 'pointer' }}
+                      title={day.isFuture ? '' : 'Click to edit'}
+                    >
                       {row.dailyStatus[day.date] !== '-' ? (
                         <span className={getBadgeClass(row.dailyStatus[day.date])}>
                           {row.dailyStatus[day.date]}
@@ -304,6 +347,50 @@ const AttendanceRecords = () => {
               )}
             </tbody>
           </table>
+        </div>
+      )}
+
+      {/* Edit Modal */}
+      {editingCell && (
+        <div className="modal-overlay" onClick={() => setEditingCell(null)} style={{
+          position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, 
+          backgroundColor: 'rgba(0,0,0,0.5)', display: 'flex', alignItems: 'center', 
+          justifyContent: 'center', zIndex: 1000
+        }}>
+          <div className="modal-content" onClick={e => e.stopPropagation()} style={{
+            background: 'white', padding: '24px', borderRadius: '8px', width: '400px', boxShadow: '0 4px 12px rgba(0,0,0,0.15)'
+          }}>
+            <h3 style={{ margin: '0 0 16px 0' }}>Edit Attendance</h3>
+            <p style={{ margin: '0 0 20px 0', color: '#555' }}>
+              <strong>{editingCell.employeeName}</strong> on <strong>{editingCell.date}</strong>
+            </p>
+            
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+              <button 
+                className={`btn ${editingCell.currentStatus === 'PRESENT' ? 'btn-primary' : 'btn-outline'}`}
+                onClick={() => handleStatusUpdate('PRESENT')}
+              >Present</button>
+              <button 
+                className={`btn ${editingCell.currentStatus === 'ABSENT' ? 'btn-danger' : 'btn-outline'}`}
+                style={{ borderColor: editingCell.currentStatus !== 'ABSENT' ? '#e74c3c' : '', color: editingCell.currentStatus !== 'ABSENT' ? '#e74c3c' : '' }}
+                onClick={() => handleStatusUpdate('ABSENT')}
+              >Absent</button>
+              <button 
+                className={`btn ${editingCell.currentStatus === 'HALF_DAY' ? 'btn-warning' : 'btn-outline'}`}
+                style={{ borderColor: editingCell.currentStatus !== 'HALF_DAY' ? '#f39c12' : '', color: editingCell.currentStatus !== 'HALF_DAY' ? '#f39c12' : '' }}
+                onClick={() => handleStatusUpdate('HALF_DAY')}
+              >Half Day</button>
+              <button 
+                className={`btn ${editingCell.currentStatus === 'ON_LEAVE' ? 'btn-info' : 'btn-outline'}`}
+                style={{ borderColor: editingCell.currentStatus !== 'ON_LEAVE' ? '#3498db' : '', color: editingCell.currentStatus !== 'ON_LEAVE' ? '#3498db' : '' }}
+                onClick={() => handleStatusUpdate('ON_LEAVE')}
+              >On Leave</button>
+            </div>
+            
+            <div style={{ marginTop: '24px', display: 'flex', justifyContent: 'flex-end' }}>
+              <button className="btn btn-outline" onClick={() => setEditingCell(null)}>Cancel</button>
+            </div>
+          </div>
         </div>
       )}
     </div>

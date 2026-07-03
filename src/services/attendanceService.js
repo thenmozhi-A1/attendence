@@ -47,6 +47,10 @@ const attendanceService = {
     if (!records) return null;
     return Array.isArray(records) ? records[0] ?? null : records;
   },
+  updateAttendanceByAdmin: async (data) => {
+    const response = await api.put('/attendance/admin/edit', data);
+    return response.data?.data ?? response.data;
+  },
 };
 
 export default attendanceService;
