@@ -58,9 +58,7 @@ const EmployeeForm = ({ employee, onSuccess, onCancel }) => {
   const validate = useCallback(() => {
     const newErrors = {};
 
-    if (!validateRequired(formData.employeeCode)) {
-      newErrors.employeeCode = 'Employee code is required';
-    }
+    // Employee code is auto-generated on the backend if left empty
     if (!validateRequired(formData.firstName)) {
       newErrors.firstName = 'First name is required';
     }
@@ -138,14 +136,14 @@ const EmployeeForm = ({ employee, onSuccess, onCancel }) => {
       <div className="form-row">
         <div className="form-group">
           <label htmlFor="employeeCode">
-            Employee Code <span className="required">*</span>
+            Employee Code
           </label>
           <input
             id="employeeCode"
             type="text"
             name="employeeCode"
             className={`form-input ${errors.employeeCode ? 'error' : ''}`}
-            placeholder="e.g., EMP001"
+            placeholder={isEditing ? '' : 'Auto-generated if left empty'}
             value={formData.employeeCode}
             onChange={handleChange}
             disabled={isEditing}
