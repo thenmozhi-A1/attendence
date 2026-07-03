@@ -31,18 +31,21 @@ const AdminDashboard = () => {
         });
         const records = data.records || data.data || data || [];
         
-        // Group by date for "On Time Check In" chart
         const grouped = {};
         records.forEach((r) => {
           const date = (r.date || r.checkIn || '').split('T')[0];
           if (!date) return;
           if (!grouped[date]) {
-            grouped[date] = { date, onTime: 0, late: 0, employees: 0 };
+            grouped[date] = { date, onTime: 0, late: 0, employees: 0, overtimeHours: 0 };
           }
           const status = (r.status || '').toUpperCase();
           if (status === 'PRESENT' || status === 'HALF_DAY') grouped[date].onTime++;
           else if (status === 'LATE') grouped[date].late++;
           grouped[date].employees++;
+          
+          if (r.workHours && r.workHours > 8) {
+            grouped[date].overtimeHours += (r.workHours - 8);
+          }
         });
 
         const sorted = Object.values(grouped).sort((a, b) => a.date.localeCompare(b.date));
@@ -88,12 +91,6 @@ const AdminDashboard = () => {
   const donutData = [
     { name: 'Checked In', value: checkedIn, color: '#2ecc71' },
     { name: 'Remaining', value: totalEmps - checkedIn, color: '#ecf0f1' }
-  ];
-
-  // Mock data for unimplemented features
-  const mockOvertime = [
-    { date: '5 Sep', hours: 10 }, { date: '6 Sep', hours: 5 }, { date: '7 Sep', hours: 40 },
-    { date: '8 Sep', hours: 12 }, { date: '9 Sep', hours: 15 }, { date: '10 Sep', hours: 8 }, { date: '11 Sep', hours: 18 }
   ];
 
   return (
@@ -209,15 +206,29 @@ const AdminDashboard = () => {
             <div style={{ fontSize: '0.75rem', background: '#3498db', color: 'white', padding: '4px 12px', borderRadius: 12 }}>Hours</div>
           </div>
           <div style={{ height: 220, width: '100%' }}>
-            <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={mockOvertime} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
-                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#f0f0f0" />
-                <XAxis dataKey="date" tick={{ fontSize: 10, fill: '#aaa' }} axisLine={false} tickLine={false} />
-                <YAxis tick={{ fontSize: 10, fill: '#aaa' }} axisLine={false} tickLine={false} />
-                <RechartsTooltip cursor={{ fill: '#f8f9fc' }} />
-                <Bar dataKey="hours" fill="#3498db" radius={[4, 4, 0, 0]} barSize={16} />
-              </BarChart>
-            </ResponsiveContainer>
+            {historicalData.length > 0 ? (
+              <ResponsiveContainer width="100%" height="100%">
+                <BarChart data={historicalData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+                  <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#f0f0f0" />
+                  <XAxis 
+                    dataKey="date" 
+                    tick={{ fontSize: 10, fill: '#aaa' }} 
+                    axisLine={false} tickLine={false} 
+                    tickFormatter={(val) => {
+                      const d = new Date(val);
+                      return `${d.getDate()} ${d.toLocaleString('default', { month: 'short' })}`;
+                    }}
+                  />
+                  <YAxis tick={{ fontSize: 10, fill: '#aaa' }} axisLine={false} tickLine={false} />
+                  <RechartsTooltip cursor={{ fill: '#f8f9fc' }} />
+                  <Bar dataKey="overtimeHours" fill="#3498db" radius={[4, 4, 0, 0]} barSize={16} />
+                </BarChart>
+              </ResponsiveContainer>
+            ) : (
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%', color: '#aaa' }}>
+                No historical data
+              </div>
+            )}
           </div>
         </div>
       </div>
