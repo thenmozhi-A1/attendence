@@ -249,6 +249,12 @@ const TechDashboard = () => {
               <div style={{ fontSize: '0.8125rem', color: '#5f6368', marginBottom: 4 }}>Email</div>
               <div style={{ fontSize: '1rem', fontWeight: 600 }}>{user?.email || '—'}</div>
             </div>
+            <div style={{ marginTop: 16 }}>
+              <div style={{ fontSize: '0.8125rem', color: '#5f6368', marginBottom: 4 }}>Monthly Salary</div>
+              <div style={{ fontSize: '1rem', fontWeight: 600 }}>
+                {user?.monthlySalary != null ? `$${Number(user.monthlySalary).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}` : '—'}
+              </div>
+            </div>
           </div>
         </div>
       </div>
